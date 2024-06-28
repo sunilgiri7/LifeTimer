@@ -7,7 +7,7 @@
 
 ## Features
 
-- **Inspiring Quote**: Greets users with a beautiful, inspiring quote when they first visit the site.
+- **Inspiring Quote**: Greets users with a beautiful, inspiring quote when they first visit the site also you can generate quotes and read.
 - **Date of Birth Input**: Allows users to input their date of birth.
 - **Real-time Timer**: Displays the time elapsed since the user's date of birth in years, months, days, hours, minutes, and seconds.
 - **Responsive Design**: Ensures the application looks great on devices of all sizes.
