@@ -54,6 +54,27 @@ const setDobHandler = () => {
   }
 };
 
+//Quote Generator
+const quoteTextEle = document.getElementById("quote-text");
+const generateQuoteEle = document.getElementById("generate-quote");
+
+const quotes = [
+  "Life is what happens when you're busy making other plans.",
+  "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate.",
+  "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+  // Add more quotes here
+];
+
+const generateQuote = () => {
+  console.log("QUOTE");
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  console.log(randomIndex);
+  quoteTextEle.textContent = quotes[randomIndex];
+  console.log((quoteTextEle.textContent = quotes[randomIndex]));
+};
+
+generateQuoteEle.addEventListener("click", generateQuote);
+
 settingIconEle.addEventListener("click", toggleDateBar);
 dobBtnEle.addEventListener("click", setDobHandler);
 
@@ -65,4 +86,5 @@ window.onload = () => {
     afterDobEle.classList.remove("hide");
     setInterval(setUpdateDate, 1000);
   }
+  generateQuote();
 };

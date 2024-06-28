@@ -112,6 +112,16 @@ body {
 .show {
   display: block;
 }
+.life-quote {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.life-quote p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
 
 @media (min-width: 600px) {
   .initialText h1 {
