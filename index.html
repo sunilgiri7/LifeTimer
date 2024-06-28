@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c0f01d58fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lifetimer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="initialTexts" class="initialText">
+        <h1>
+          "Life is not measured by the breaths we take, but by the moments that
+          take our breath away. Embrace every moment, for each is a precious
+          gift on this incredible journey."
+        </h1>
+      </div>
+      <div id="after-dob-btn" class="titleContainer hide">
+        <div class="center">
+          <h1>Your life journey covered, Til Now!</h1>
+          <hr />
+          <div class="timeContainer">
+            <div class="timeUnit">
+              <div id="year">0</div>
+              <h2>years</h2>
+            </div>
+            <div class="timeUnit">
+              <div id="months">0</div>
+              <h2>months</h2>
+            </div>
+            <div class="timeUnit">
+              <div id="days">0</div>
+              <h2>days</h2>
+            </div>
+            <div class="timeUnit">
+              <div id="hours">0</div>
+              <h2>hours</h2>
+            </div>
+            <div class="timeUnit">
+              <div id="minutes">0</div>
+              <h2>minutes</h2>
+            </div>
+            <div class="timeUnit">
+              <div id="seconds">0</div>
+              <h2>seconds</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="settings">
+        <h3 id="settingTitle" class="title">Kindly Enter Your DOB</h3>
+        <i id="settingIcon" class="fa-regular fa-calendar"></i>
+        <div id="settingContent" class="calendar hide">
+          <input type="date" id="dobInput" />
+          <button class="submit" id="dobBtn">Add DOB</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
